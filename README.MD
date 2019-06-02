@@ -45,7 +45,7 @@ const imgstream::rgb Y(255, 255, 0);
 int main() {
 	imgstream::pngostream<width * 3> ostr(file_name, width, height);
 
-	ostr << B << B << Y << Y << Y << Y << Y << B << B
+	ostr     << B << B << Y << Y << Y << Y << Y << B << B
 		 << B << Y << Y << Y << Y << Y << Y << Y << B
 	 	 << Y << Y << B << Y << Y << Y << B << Y << Y
 	 	 << Y << Y << Y << Y << Y << Y << Y << Y << Y
